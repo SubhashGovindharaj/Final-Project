@@ -1,37 +1,9 @@
-# Machine-Learning-Model-Building
+# Multiple Machine Learning Project
 
-Overview
-This project endeavors to develop an application incorporating three machine learning models: Random Forest Classifier, Decision Tree Classifier, and KNN Classifier. Additionally, it places special emphasis on prediction utilizing the Random Forest model, encompassing significant image classification procedures, in-depth Natural Language Processing (NLP) operations, and a customer recommendation system. The objective is to integrate these diverse machine learning processes into a unified application.
+Overview of this project:
 
-Install dependencies:
+This project consists of a multiple machine learning Algorithms and Consists of varies way to Segmentation of e-commerce by applying classification models like KNN-Classifier, Decision tree, Random Forest classifier etc. And Together this project also consists of Image Processing,Text Processing with NLP. A collabarative based content filtering model with Amazon dataset predicted Top-5 Recommendation.
 
-pip install -r requirements.txt
 
-Dependencies
-Streamlit
-Pandas
-NumPy
-OpenCV
-Pytesseract
-PIL (Pillow)
-Matplotlib
-Scikit-learn
-Seaborn
-Plotly Express
-NLTK
-Spacy
-Wordcloud
-Surprise
 
-Code Examples:
-Image Processing:
 
-import streamlit as st
-import cv2
-from PIL import Image
-import pytesseract
-
-Machine Learning:
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from surprise import SVD
